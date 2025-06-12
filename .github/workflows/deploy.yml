@@ -9,6 +9,8 @@ jobs:
     defaults:
       run:
         working-directory: ./dmahon-website   
+    permissions:
+      contents: write  # Ensure sufficient permissions for deployment
     steps:
       - uses: actions/checkout@v4
       
