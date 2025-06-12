@@ -30,6 +30,7 @@ jobs:
           path: './dmahon-website/dist'
 
   deploy:
+    needs: build
     runs-on: ubuntu-latest
     permissions:
       pages: write
