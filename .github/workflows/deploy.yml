@@ -4,34 +4,45 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
 
     steps:
       - uses: actions/checkout@v4
 
-      # Setup Node.js specifically in your website folder
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: 'npm'
-      
-      # Build React app
+
       - name: Install and Build
         working-directory: ./dmahon-website
         run: |
           npm install
           npm run build
 
-      # Verify build output (debugging)
       - name: List build files
         run: ls -R ./dmahon-website/dist || echo "Build failed - no dist directory"
 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dmahon-website/dist'
+
       - name: Deploy to GitHub Pages
+        id: deploy
         uses: actions/deploy-pages@v2
