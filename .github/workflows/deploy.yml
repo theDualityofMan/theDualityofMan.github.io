@@ -35,6 +35,9 @@ jobs:
           npm install
           npm run build
 
+      - name: Copy index.html to 404.html
+        run: cp ./dmahon-website/dist/index.html ./dmahon-website/dist/404.html
+
       - name: List build files
         run: ls -R ./dmahon-website/dist || echo "Build failed - no dist directory"
 
