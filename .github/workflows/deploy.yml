@@ -35,7 +35,7 @@ jobs:
 
       # Deploy using modern GitHub Pages action
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: './dmahon-website/dist'  # Your actual build output
 
