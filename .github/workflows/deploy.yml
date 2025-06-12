@@ -33,11 +33,5 @@ jobs:
       - name: List build files
         run: ls -R ./dmahon-website/dist || echo "Build failed - no dist directory"
 
-      # Deploy using modern GitHub Pages action
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: './dmahon-website/dist'  # Your actual build output
-
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
