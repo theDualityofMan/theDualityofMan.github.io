@@ -24,7 +24,7 @@ jobs:
       
       # 3. Build React app (in website folder)
       - name: Install and Build
-        working-directory: ./website
+        working-directory: ./dmahon-website
         run: |
           npm install
           npm run build
