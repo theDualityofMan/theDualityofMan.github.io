@@ -1,44 +1,43 @@
-# This is a basic workflow to help you get started with Actions
+name: Deploy React App to GitHub Pages
 
-name: CI
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./dmahon-website   
-    steps:
-      - uses: actions/checkout@v4
-      
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18.x
-          cache: 'npm'
-      
-      - name: Install dependencies
-        run: npm install
-      
-      - name: Run build
-        run: npm run build
-
-      - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: './dmahon-website/dist'
-
   deploy:
-    needs: build
     runs-on: ubuntu-latest
     permissions:
+      contents: write
       pages: write
       id-token: write
-      contents: write
+
     steps:
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - uses: actions/checkout@v4
+
+      # Setup Node.js specifically in your website folder
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dmahon-website/dist
+          node-version: 18
+          cache: 'npm'
+      
+      # Build React app
+      - name: Install and Build
+        working-directory: ./dmahon-website
+        run: |
+          npm install
+          npm run build
+
+      # Verify build output (debugging)
+      - name: List build files
+        run: ls -R ./dmahon-website/dist || echo "Build failed - no dist directory"
+
+      # Deploy using modern GitHub Pages action
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: './dmahon-website/dist'  # Your actual build output
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v2
