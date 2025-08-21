@@ -1,12 +1,23 @@
-import React, { useState } from "react";
+import React from "react";
 
-export default function HomePage(){
-    return(
-        <div className="flex flex-col items-center justify-center p-6 gap-3">
-            <div className = "flex flex-row items-center justify-start w-full h-20 px-7 rounded-lg shadow-md">
-                <h1 className="text-2xl font-bold text-white p-8">dmm</h1>
-            </div>
-        </div>
-    );
-    
+export default function HomePage() {
+  return (
+    <div className="flex items-center justify-center h-screen">
+      {/* Blur Box */}
+      <div className="bg-black/30 backdrop-blur-sm rounded-lg shadow-lg flex flex-col items-center justify-top text-center p-8 w-[40vw] h-[60vh]">
+        <br />
+        <h1 className="text-2xl font-bold text-white mb-4">
+          Hi! I'm Daniel.
+        </h1>
+        <br />
+        <p className="text-gray-200">
+         I'm a software engineer with a passion for building innovative solutions. I love thinking outside the box and building cool stuff. I have a passion for developing algorithms, and I enjoy solving complex problems. My goal is to create software that makes a difference in people's lives.
+        </p>
+        <br />
+        <p className="text-gray-200">
+          I'm currently studying Computer Science at the University of Guelph, where I am honing my skills in software development and exploring new technologies. I'm currently looking for coop for Jan-Sept 2025, and I'm excited to apply my knowledge in a real-world setting. My graduation date is set for April 2027. 
+        </p>
+      </div>
+    </div>
+  );
 }
