@@ -59,62 +59,78 @@ export default function CoopsPage() {
                   </div>
                 <p><strong>Company:</strong> P&P Optica</p>
                 <p><strong>Position:</strong> Data Technician Intern</p>
-                <p>
-                  <strong>Summary:</strong> P&P Optica is an optics company that specializes in food safety, particularly in meat production. 
-                    They develop machines that use visual and hyperspectral cameras to detect foreign contaminants in a production line environment.
-                    These contaminants are identified using artificial intelligence, and the models that are used are developed in-house. 
-                    Computing is integral to their business model - in AI, machine learning, and the programs used to process the mass amounts of data
-                    for each model. PPO is currently the only company in the food safety industry to use both hyperspectral and visual imaging, giving them a niche spot on
-		    the market and the ability to meet customer's needs more effectively.
+                <div>
+  <p>
+    <strong>Summary:</strong>
+  </p>
+  <p style={{ marginLeft: '20px' }}>
+    P&amp;P Optica (PPO) is an optics company specializing in food safety, particularly in meat production. 
+    They develop machines that use visual and hyperspectral cameras to detect foreign contaminants in a production line environment. 
+    These contaminants are identified using artificial intelligence, and the models used are developed in-house. 
+    Computing plays a critical role in PPO's business model — from AI and machine learning to programs used to process the large volumes of data needed for each model. 
+    PPO is currently the only company in the food safety industry to use both hyperspectral and visual imaging, giving them a unique niche and allowing them to better meet customer needs.
+  </p>
 
-                    For my Summer and Fall 2024 co-op work terms, I began working at P&P Optica (PPO) as part of an 8 month co-op extending from mid June to the end of the                		    fall school semester in late December.
-                    I worked in their Data Services department as a data technician, and assisted with the collection and processing of data. 
-                    In order to create and train their models, large amounts of data are required, and quality data is integral to a good machine learning model.
-                    We collected large samples of data based on foreign materials that would be found at
-                    our customers' facilities, annotated and post-processed this data, and finally uploaded it so our software team could start developing a model. Most of 		    the time we ran data collection in house, but luckily I was able to travel to a customer plant in the States to experience how an in-field data collection 		    worked. My team and I spent a week running data samples, interacting 
-                    with our customer, and troubleshooting any issues that arose during our stay.  
+  <p style={{ marginLeft: '20px' }}>
+    For my Summer and Fall 2024 co-op work terms, I worked at P&amp;P Optica as part of an 8-month placement extending from mid-June to late December. 
+    I worked in the Data Services department as a Data Technician, where I assisted with collecting and processing data. 
+    In order to create and train models, large amounts of high-quality data were required. 
+    We collected samples of data based on foreign materials found at customer facilities, annotated and post-processed this data, and uploaded it so the software team could begin model development.
+    Most of the time, data collection was done in-house, but I was fortunate to travel to a customer plant in the U.S. 
+    There, I spent a week running data samples, interacting with the customer, and troubleshooting issues during the collection process.
+  </p>
 
+  <p>
+    <strong>Learning Goals:</strong>
+  </p>
+  <ul style={{ marginLeft: '40px' }}>
+    <li>Learn to approach difficult problems with an open mindset and develop strategies to divide problems into manageable subunits.</li>
+    <li>Further develop teamwork and communication skills to collaborate effectively and explain thought processes clearly.</li>
+    <li>Improve proficiency in Python and/or other programming languages where possible at PPO.</li>
+  </ul>
 
-                    My learning goals going into my coop term were as follows:
+  <p>
+    <strong>Additional Goals at PPO:</strong>
+  </p>
+  <ul style={{ marginLeft: '40px' }}>
+    <li>Become involved in all aspects of the Data Services team, including data collection and post-processing/annotation.</li>
+    <li>Travel to one or more customer plants to experience an on-site data collection and assist with machine setup.</li>
+    <li>Learn as much as possible about the hardware and software that go into developing PPO’s machines.</li>
+  </ul>
 
-                    - Learn how to better approach difficult problems with an open mindset. Develop strategies to divide problems into manageable subunits without getting 		    lost in the enormity of them.
+  <p>
+    <strong>Goal Completion:</strong>
+  </p>
+  <ul style={{ marginLeft: '40px' }}>
+    <li>
+      I participated in multiple team projects in a highly collaborative work environment. Through these experiences, I became confident in my ability to work as part of a team and communicate effectively. I also realized that while I am naturally social at work, I would like to improve my ability to communicate in a more professional context in future roles.
+    </li>
+    <li>
+      I traveled on-site for a data collection and assisted with setting up one of PPO’s machines. I worked directly with our customer and troubleshot any issues during setup. Thanks to clear communication and effective collaboration, my team completed the assigned collection in only 80% of the projected time.
+    </li>
+    <li>
+      I was regularly faced with challenging problems and significantly improved at breaking them down into smaller, manageable tasks. I became less overwhelmed by assigned projects and more comfortable asking for guidance when needed.
+    </li>
+    <li>
+      I had opportunities to explore PPO’s codebase and contributed by writing JavaScript scripts to generate spreadsheets essential for maintaining customer data. Although my role was not primarily software-focused, these experiences strengthened my technical skills.
+    </li>
+    <li>
+      I gained proficiency in both data collection and post-processing, requiring minimal oversight from my manager while consistently meeting project deadlines.
+    </li>
+  </ul>
 
-                    - Further develop effective teamwork and communication skills, so as to more efficiently collaborate on projects and communicate thought processes.
+  <p>
+    <strong>Conclusion:</strong>
+  </p>
+  <p style={{ marginLeft: '20px' }}>
+    My time at P&amp;P Optica was insightful and rewarding, and I am very happy with how these two work terms went. 
+    I enjoyed learning the unique aspects of my role and seizing opportunities as they arose. 
+    I successfully achieved most of my goals and grew both technically and professionally. 
+    I would like to thank my managers, <em>Jenny Udema</em> and <em>Brittany Cronier</em>, as well as my amazing coworkers on the Data Services team, for their constant support and encouragement. 
+    Thank you, P&amp;P Optica, for an incredible work experience!
+  </p>
+</div>
 
-                    - Further develop and utilize my skills in Python and/or other programming languages in any available scenario at PPO.
-
-                    I was also inspired to develop additional learning goals that pertained more specifically to my tasks at PPO:
-
-                    - Become involved in all aspects of the data services team, and participate in data collection and post-processing/annotation.
-
-                    - Travel to one or more customer plants to experience an on-site data collection, and help install or setup one of our machines.
-
-                    - Learn as much as possible about the hardware and software that go into developing one of our machines.
-
-
-
-                     I was successful in completing either fully or partially a good number of these goals, as described below:
-
-                     - I have had multiple times where I have participated in team projects, as my work environment was very team-oriented, and through these experiences I am now confident in my ability to collaborate and communicate effectively. I have found that I am a very social person in my work environment, and in my next work term, I would like to improve on communicating in a more professional context.
-
-                    - I travelled in-field to perform a data collection and assist in setup of one of our machines, interacted with our customer and troubleshooted any malfunctions. I was part of a team, 
-                    and through clear communication and effective collaboration, we completed our assigned collection using only 80% of the projected time required.
-
-                    - I have been faced with problems that I have had to learn how to solve, and have improved significantly in learning how to approach them. I am less overwhelmed by assigned projects, 
-                    and have no problems asking for guidance when needed.
-                    
-                    - I was given opportunities to explore the PPO codebase, and help program spreadsheets that were integral to maintaining consistent customer data, 
-                    using JavaScript. Unfortunately, my job was not centered around developing our software, so there were limited opportunities to code.
-                    
-                    - I  worked in both data collection and post-processing scenarios, and became proficient in the procedures used in both processes. Needed little to no oversight by my manager, and was always able to meet project deadlines. 
-
-
-                    My time at P&P Optica has been insightful and stimulating, and I am really happy with how these two work terms have gone. 
-                    I enjoyed learning the unique aspects of my job and looking for new opportunities that presented themselves. I  set attainable goals for myself 
-                    during my time there and was successful in completing them. I would like to acknowledge my awesome managers, Jenny Udema and Brittany Cronier, and the wonderful coworkers I had in the 
-                    data services team, for being a constant positive force in encouraging me in my work and learning. Thank you, P&P Optica, for an incredible work experience!
-
-                </p>
               </div>
             </div>
           </div>
@@ -146,61 +162,142 @@ export default function CoopsPage() {
                   </div>
                 <p><strong>Company:</strong> Cognizant</p>
                 <p><strong>Position:</strong> Software Engineering Intern</p>
-                <p>
-                  <strong>Summary:</strong> Over the course of summer 2025, I had the privilege of participating in Cognizant's second-ever co-op term. I want to highlight my experience, share what I learned and discuss the tasks and challenges that I faced during my time at this company.
+                <div style={{ padding: "20px", fontFamily: "Arial, sans-serif", lineHeight: "1.8" }}>
+                  {/* Title */}
+                  <h2 style={{ textAlign: "center" }}>
+                    Work Term Summary – Cognizant Technology Solutions (Summer 2025)
+                  </h2>
 
-Cognizant is a huge multi-national tech corporation, boasting spot #217 in the American Fortune 500 list. It has large offices in the States, Canada, India, and numerous other countries. It acts as a tech consulting company, developing and maintaining software for other large businesses, such as banks, universities, healthcare, and other industries. Going into this co-op term, I was excited to finally get some professional software development experience - getting to work at an industry leader was a huge added bonus, giving me the opportunity to experience what development processes look like at companies as big as Cognizant.
+                  {/* Introduction */}
+                  <p style={{ textIndent: "40px" }}>
+                    Over the course of summer 2025, I had the privilege of participating in Cognizant's
+                    second-ever co-op term. I want to highlight my experience, share what I learned,
+                    and discuss the tasks and challenges that I faced during my time at this company.
+                  </p>
 
-Going into this term, my goals were to further develop my software engineering skills, specifically involving languages and resources that are actually used in the workforce right now. I wanted to learn a front-end framework like react, improve my Python, and learn how to set up and utilize cloud computing resources. I felt these skills would be a lot more useful than the things I've been learning so far at University in terms of being applicable to popular tech stacks. Throughout the development process, I was able to work with all of the aforementioned languages and resources. I think they will be very useful for whatever my next placement is, due to the commonality of Python in most companies of script development.
+                  {/* About Cognizant */}
+                  <p style={{ textIndent: "40px" }}>
+                    <strong>About Cognizant:</strong> Cognizant is a huge multinational tech corporation,
+                    boasting spot #217 in the American Fortune 500 list. It has large offices in the
+                    States, Canada, India, and numerous other countries. As a tech consulting company,
+                    it develops and maintains software for other large businesses such as banks,
+                    universities, healthcare, and more. Going into this co-op term, I was excited to
+                    finally gain professional software development experience — working at an industry
+                    leader was a huge added bonus, giving me the opportunity to experience development
+                    processes at a company of this scale.
+                  </p>
 
-My work term goals that I posted to Experience Guelph are as follows:
+                  {/* Goals */}
+                  <p style={{ textIndent: "40px" }}>
+                    <strong>Initial Goals:</strong> My objectives for this work term were to strengthen
+                    my software engineering skills, particularly focusing on tools and frameworks
+                    currently used in the industry. I aimed to learn a front-end framework like React,
+                    improve my Python skills, and become comfortable with cloud computing resources.
+                    These goals aligned with my desire to gain practical experience beyond what I’ve
+                    learned in university courses.
+                  </p>
 
+                  {/* Experience Guelph Goals */}
+                  <p style={{ textIndent: "40px" }}>
+                    <strong>Experience Guelph Goals:</strong>
+                  </p>
 
-* Goal 1
-Due to language and knowledge barriers in my workplace, I sometimes find it difficult to effectively communicate my thoughts to managers and coworkers. I want to improve the clarity and effectiveness of my oral communication in workplace conversations.
+                  {/* Goal 1 */}
+                  <ul style={{ marginLeft: "60px" }}>
+                    <li>
+                      <strong>Goal 1:</strong> Improve oral communication with managers and coworkers.
+                      <ul style={{ marginLeft: "40px" }}>
+                        <li>
+                          <strong>Action Plan:</strong> Use strategies such as speaking more slowly,
+                          adding detail, and checking for understanding during discussions.
+                        </li>
+                        <li>
+                          <strong>Measure of Success:</strong> Track how often I need to revisit or
+                          clarify discussion points, aiming for noticeable improvement by July 30th.
+                        </li>
+                        <li>
+                          <strong>Completion:</strong> Successfully improved communication by getting
+                          to know my managers’ styles, speaking more clearly, and asking for elaboration
+                          when necessary.
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
 
-* Action Plan 1
- I will try different communication strategies, such as speaking more slowly, adding more detail, and checking for understanding during discussions to see which methods are most effective.
+                  {/* Goal 2 */}
+                  <ul style={{ marginLeft: "60px" }}>
+                    <li>
+                      <strong>Goal 2:</strong> Develop leadership skills while acting as an informal
+                      spokesperson for the development team.
+                      <ul style={{ marginLeft: "40px" }}>
+                        <li>
+                          <strong>Action Plan:</strong> Hold regular team check-ins, organize tasks,
+                          support team members, and encourage collaboration and feedback.
+                        </li>
+                        <li>
+                          <strong>Measure of Success:</strong> Positive feedback from teammates,
+                          timely milestone completion, and improved team cohesion.
+                        </li>
+                        <li>
+                          <strong>Completion:</strong> Partially completed — early on, I took initiative
+                          in organizing the project, but later my teammates became more vocal and took
+                          ownership of their respective tasks.
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
 
-* Measure of Success 1
- I will track how often I need to revisit or clarify discussion points, with the goal of reducing these instances. I would like to achieve noticeable improvement by July 30th.
+                  {/* Goal 3 */}
+                  <ul style={{ marginLeft: "60px" }}>
+                    <li>
+                      <strong>Goal 3:</strong> Strengthen debugging and technical problem-solving skills.
+                      <ul style={{ marginLeft: "40px" }}>
+                        <li>
+                          <strong>Action Plan:</strong> Use systematic debugging techniques including
+                          logging, breakpoints, test cases, and collaborating with teammates when needed.
+                        </li>
+                        <li>
+                          <strong>Measure of Success:</strong> Reduce recurring bugs, improve debugging
+                          speed, and contribute to a stable, reliable application by July 30th.
+                        </li>
+                        <li>
+                          <strong>Completion:</strong> Successfully completed — I improved significantly
+                          in debugging and became much more confident using terminal and console tools.
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
 
-Completed: I got better at communicating with managers due to getting to know them and their speech patterns better, and by communicating more slowly and asking for elaboration where I felt there was a lack of clarity.
+                  {/* Project Overview */}
+                  <p style={{ textIndent: "40px" }}>
+                    <strong>Project Overview:</strong> My primary task during this co-op was to develop
+                    a full-stack application to assist QA personnel in writing test cases for data
+                    transformation accuracy. The app takes an Excel mapping sheet as input and outputs
+                    both natural language test cases and SQL scripts that can be automatically executed
+                    on a user’s database. As part of a five-person team, I used Python and Microsoft
+                    Azure for backend development and ReactJS for the frontend UI. I also learned how
+                    to set up and manage cloud resources on the fly, which was critical for shipping
+                    the completed product by the end of the term.
+                  </p>
 
+                  {/* Takeaways */}
+                  <p style={{ textIndent: "40px" }}>
+                    <strong>Key Takeaways:</strong> My time at Cognizant was an incredible learning
+                    experience and gave me valuable exposure to software development practices in a
+                    large corporate setting. I learned React, Azure, Git (including resolving plenty
+                    of merge conflicts!), and modern development workflows. The experience exceeded
+                    my expectations and helped me grow significantly as a developer.
+                  </p>
 
-* Goal 2
-Currently, I am the de facto spokesperson for my development team. I would therefore like to develop my leadership skills by informally guiding my team through the successful development of our application, fostering collaboration, accountability, and technical progress without holding an official leadership title.
+                  {/* Acknowledgements */}
+                  <p style={{ textIndent: "40px" }}>
+                    <strong>Acknowledgements:</strong> I would like to thank my mentors — Sakthi,
+                    Garima, and Gagandeep — for their guidance throughout the project. I’d also like
+                    to thank my teammates Simon, Ruben, Chloe, and Joey for their collaboration,
+                    support, and making this an enjoyable and productive experience.
+                  </p>
+                </div>
 
-* Action Plan 2
-Initiate regular team check-ins to align goals and track progress, proactively support team members, take ownership of organizing tasks, and encourage open communication and feedback within the team.
-Lead by example through strong work ethic, reliability, and positive attitude.
-
-* Measure of Success 2
-Positive informal feedback from team members regarding collaboration and coordination, timely completion of key application milestones with minimal delays, increased team cohesion and clarity of roles and responsibilities, recognition from peers or supervisors for initiative and team contribution.
-
-Partially completed: As the co-op went on, my team started becoming more vocal with management, and all of them took leadership of their various mini-projects. Therefore, I did not have to take on such a big leadership role - however, during the start, I felt like I took good responsibility and initiative with the project.
-
-
-* Goal 3
-As we continue developing our application, I've encountered challenges in diagnosing and resolving bugs efficiently. I want to strengthen my technical problem-solving skills, particularly in debugging and implementing effective solutions. I want to improve my ability to identify, analyze, and resolve bugs during the development process to contribute to a stable and reliable application.
-
-* Action Plan 3
- I will approach debugging more systematically by using tools such as logging, breakpoints, and test cases. I will also review relevant documentation, collaborate with teammates when needed, and reflect on recurring issues to prevent future bugs.
-
-* Measure of Success 3
- I will measure success by reducing the number of recurring bugs, increasing the speed and accuracy of my debugging process, and contributing to the development of a bug-free application by July 30th.
-
-Completed: With the assistance of my coworkers, we developed a bug-free application by the aforementioned date. My debugging skills improved during the dev process, as there were a lot of opportunities to debug various front-end and backend issues. I got more comfortable with terminal and console to figure out bugs as well.
-
-
-My task during this coop was to develop a full-stack application to assist QA personnel with writing test cases for data transformation accuracy. The application would take an Excel mapping sheet as input, and output a set of natural language test cases, as well as SQL scripts that could be auto-ran on the user's database to fetch their mapped data. As part of a team of 5 people, I used Python and Microsoft Azure to develop and host the backend and make API calls to a database, blob storage, and an AI resource, and used ReactJS to develop the frontend UI. I utilized my existing knowledge of Python and JS, and had to learn about Azure and cloud computing on the fly as we developed in order to ship a completed product at the end of our term.
-
-My time at Cognizant was an awesome learning experience and a good taste of what software development processes look like in the corporate world. I went into this term hoping that I could learn more than simply what my university experience had taught me, and my expectations were exceeded. I learned a lot about modern development practices, React, Azure, and Git (I fixed my fair share of merge conflicts along the way :) ).
-
-I would like to acknowledge and thank my mentors at Cognizant, namely Sakthi, Garima, and Gagandeep for being great resources and for their guidance through this project! I would also like to thank my teammates Simon, Ruben, Chloe, and Joey for their support and knowledge, as well as them being a great bunch of people who I had fun developing with.
-
-
-                </p>
               </div>
             </div>
           </div>
