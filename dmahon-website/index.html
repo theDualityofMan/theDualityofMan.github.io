@@ -3,7 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>dmahon</title>
+    <style>
+    .container {
+      overflow: hidden;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        overflow-y: auto;
+        max-height: 100vh;
+      }
+    }
+  </style>
+    <title>Daniel's Website</title>
   </head>
   <body>
     <div id="root"></div>
