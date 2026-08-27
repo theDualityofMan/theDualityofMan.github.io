@@ -36,10 +36,9 @@ export default function CoopsPage() {
             <br/>
             {/* Introduction */}
             <p style={{ textIndent: "40px" }}>
-              During my W25 and S25 work terms, I decided to return to P&P Optica, in Waterloo ON. 
+              During my W26 and S26 work terms, I decided to return to P&P Optica, in Waterloo ON. 
               I was hired as a Model Developer Co-op for a 4 month contract, which I got extended to 
-              an 8 month until the end of August. This report will only be covering the first 4 months 
-              of my co-op experience so far (Jan to end of April). I was hired to develop machine learning 
+              an 8 month until the end of August. I was hired to develop machine learning 
               models alongside a team of 5-7 other developers and researchers.
             </p>
             <br/>
@@ -47,7 +46,7 @@ export default function CoopsPage() {
             <p style={{ textIndent: "40px" }}>
               <strong>About PPO:</strong> First, a little background about the company - I may have 
               already listed it below under my other co-op experience with PPO, but I feel like I’ve gained 
-              some further knowledge in the past few months. PPO is a product-based company operating within the 
+              some further knowledge in the past 8 months. PPO is a product-based company operating within the 
               food safety industry, specifically in meat manufacturing. Our product is a machine that fits into a 
               customer’s production line and uses a combination of visual and hyperspectral imaging and machine 
               learning to detect and reject foreign material contaminations hiding in a customer’s product. Not 
@@ -66,16 +65,107 @@ export default function CoopsPage() {
             <p style={{ textIndent: "40px" }}>
               <strong>Initial Goals:</strong> 
             </p>
-
+            <br/>
             {/* Experience Guelph Goals */}
             <p style={{ textIndent: "40px" }}>
               <strong>Experience Guelph Goals:</strong>
             </p>
-
+            <br/>
             {/* Goal 1 */}
             <ul style={{ marginLeft: "60px" }}>
               <li>
-                <strong>Goal 1:</strong> 	
+                <strong>Goal 1: </strong> 	
+                  Improve clarity and precision when explaining technical work (tickets, project status, blockers) 
+                  to teammates and management, both in speech and written docs.
+                <ul style={{ marginLeft: "40px" }}>
+                  <li>
+                    <strong>Action Plan:</strong> 	
+                      Prepare a short structured summary (what/why/status/next steps) before standups or updates; 
+                      ask a teammate to review technical write-ups for clarity before sending; practice explaining 
+                      a complex ticket to a non-technical stakeholder in plain language.
+                  </li>
+                  <li>
+                    <strong>Measure of Success:</strong> 	
+                      Fewer follow-up clarifying questions from teammates/management; positive feedback on 
+                      documentation clarity; ability to give a concise verbal update without needing notes.
+                  </li>
+                  <li>
+                    <strong>Completion:</strong> 		
+                      For written communication improvement, I practiced writing more technically thorough 
+                      documentation on my PRs, as well as writing documentation on Atlassian for analysis tickets 
+                      and new scripts, so as to better help my teammates or anyone looking better understand the 
+                      technicality of my work. I noted my teammates' issues when they were struggling to understand 
+                      what I was writing, and applied their feedback to subsequent documentation. In terms of oral 
+                      communication, my time as scrum master helped vastly with both my ability to articulate myself 
+                      and my knowledge of both our codebase and company functions. These two allowed me to explain 
+                      problems and solutions to my teammates and people from other teams concisely, without the need 
+                      for notes or much preparation.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <br/>
+            {/* Goal 2 */}
+            <ul style={{ marginLeft: "60px" }}>
+              <li>
+                <strong>Goal 2: </strong> 	
+                  Continuing to deepen understanding of the existing codebase (structure, conventions, key modules) 
+                  by actively using it rather than just reading it.
+                <ul style={{ marginLeft: "40px" }}>
+                  <li>
+                    <strong>Action Plan:</strong> 	
+                      When starting a new task, trace through relevant existing code paths before writing new code; 
+                      refactor or extend at least one existing module per sprint instead of always writing isolated 
+                      scripts; document what you learn about each part of the codebase as you go.
+                  </li>
+                  <li>
+                    <strong>Measure of Success:</strong> 		
+                      Reduced ramp-up time on new tickets touching unfamiliar parts of the codebase; increased ability 
+                      to review/debug others' code in that area; growing personal notes/map of the codebase.
+                  </li>
+                  <li>
+                    <strong>Completion:</strong> 
+                      I familiarized myself with our codebase much more over the last 4 months - gaining confidence in 
+                      writing code for my tickets and incorporating modules from other scripts, reviewing and leaving 
+                      comments on my teammates' PRs, and taking on more and more complex tickets over the last 4 months.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <br/>
+            {/* Goal 3 */}
+            <ul style={{ marginLeft: "60px" }}>
+              <li>
+                <strong>Goal 3: </strong> 	
+                    Build capability to independently take on more complex, customer-facing data analysis tasks 
+                    (e.g., deeper hyperspectral/segmentation analysis).
+                <ul style={{ marginLeft: "40px" }}>
+                  <li>
+                    <strong>Action Plan:</strong> 	
+                      Volunteer for or request a moderately complex analysis task each month; pair with a senior team 
+                      member on one advanced analysis to learn their approach; review past customer-facing analyses to 
+                      understand what "complex" looks like at this company.
+                  </li>
+                  <li>
+                    <strong>Measure of Success:</strong> Successfully complete and present at least one customer-facing 
+                    analysis with minimal supervision; positive feedback from manager/customer on rigor and clarity of analysis.
+                  </li>
+                  <li>
+                    <strong>Completion:</strong> 	
+                      I took on a customer data analysis project that was aimed at discovering whether we were able to 
+                      detect a certain foreign material using the data at hand. Through visual and spectral analysis, 
+                      along with copious trials of model development, I was able to determine that we wouldn't be able 
+                      to develop a successful customer model without further in-factory data collection. This analysis 
+                      directly impacted choices the company made with how they conducted this data collection!
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <br/>
+            {/* Goal 4 */}
+            <ul style={{ marginLeft: "60px" }}>
+              <li>
+                <strong>Goal 4: </strong> 	
                 To work with linear SVMs and neural networks for a customer project, and contribute 
                 to development and/or review of implementation of neural networks in our workflow.
                 <ul style={{ marginLeft: "40px" }}>
@@ -98,11 +188,11 @@ export default function CoopsPage() {
                 </ul>
               </li>
             </ul>
-
-            {/* Goal 2 */}
+            <br/>
+            {/* Goal 5 */}
             <ul style={{ marginLeft: "60px" }}>
               <li>
-                <strong>Goal 2:</strong> 	
+                <strong>Goal 5: </strong> 	
                   Lead ML team by being scrum master for our agile process, and facilitate conversations 
                   about tickets and customer plans without having to be guided through the process. 
                 <ul style={{ marginLeft: "40px" }}>
@@ -133,11 +223,11 @@ export default function CoopsPage() {
                 </ul>
               </li>
             </ul>
-
-            {/* Goal 3 */}
+            <br/>
+            {/* Goal 6 */}
             <ul style={{ marginLeft: "60px" }}>
               <li>
-                <strong>Goal 3:</strong> 	
+                <strong>Goal 6: </strong> 	
                     Deep dive into neural networks and machine learning and understand both the high-level concepts 
                     (datasets, parameters, etc) and the underlying math (forward + background propagation, gradient descent, etc.)
                 <ul style={{ marginLeft: "40px" }}>
@@ -181,16 +271,20 @@ export default function CoopsPage() {
                I was also tasked with developing Python scripts to help with automating the entire above 
                process. Originally, all the scripts had to be ran separately, which made passing data between 
                each a grueling and time-consuming process. I made changes which fixed pre-existing bugs, wrote unit tests, 
-               fixed linter errors,  added new functionality to speed up the model-making process. 
+               fixed linter errors,  and added new functionality to speed up the model-making process, such as improving our data filtering process 
+               and re-imagining how our model performance metrics were stored and displayed. I was also responsible 
+               for multiple customer projects. These included developing linear SVMs and neural networks for deployment, reducing model 
+               drift on existing models, and investigating and experimenting on how we ingested data in order to improve tricky models.
             </p>
             <br/>
             <p style={{ textIndent: "40px" }}>
               PPO, like many other companies, operates its ML team through Agile methodology. After discussing it with my 
-              manager, I was assigned the task of scrum-master for the last two months. This involved running tri-weekly 
+              manager, I was assigned the task of scrum-master for the last six months. This involved running tri-weekly 
               standups, sprint planning and estimation meetings, and facilitating conversations with team members to understand 
               how they were progressing through their sprints. While my experience was at first obviously not up to scrum-master
               standards, I quickly gained enough domain knowledge through talking about customer projects and company infrastructure 
-              with people inside and outside my team. 
+              with people inside and outside my team. I came to enjoy this role, as it allowed me to further connect with my teammates
+              and ask questions I might not have thought to ask otherwise.
             </p>
             <br/>
             <p style={{ textIndent: "40px" }}>
@@ -204,18 +298,20 @@ export default function CoopsPage() {
             <br/>
             {/* Takeaways */}
             <p style={{ textIndent: "40px" }}>
-              <strong>Key Takeaways:</strong> My first 4 months taught me a lot about machine learning and how 
+              <strong>Key Takeaways:</strong> These last 8 months have taught me so much about machine learning and how 
               the process works from start to finish. I gained valuable experience in running a team as a scrum 
               master and facilitating conversations among my teammates. I learned how to convey my gained knowledge 
               to new members, and most importantly, this position taught me how to ask good questions, as there was a 
               lot I didn’t know. I also enjoyed working with professionals in software, and learned a lot about review 
-              processes and testing. 
+              processes and testing. Most importantly, I realized that I want to pursue a career in this field! Math and 
+              computer science interest me, and machine learning is a practical application of both of these in a 
+              cutting edge field. Im excited to see where it brings me and what I do in the future!
             </p>
             <br/>
             {/* Acknowledgements */}
             <p style={{ textIndent: "40px" }}>
               <strong>Acknowledgements:</strong> I’d like to give a shout out my amazing manager, Scotty, and my 
-              coworkers Hannah, Pooria, and Kesha for teaching me so much and being amazing resources to reach out 
+              coworkers Hannah, Pooria, Likhil, and Kesha for teaching me so much and being amazing resources to reach out 
               to, along with the SIS team for explaining how their code is incorporated into the process.
               I’d also like to acknowledge the honorary office cat Patty for being an amazing emotional support.
             </p>
@@ -262,12 +358,12 @@ export default function CoopsPage() {
               These goals aligned with my desire to gain practical experience beyond what I’ve
               learned in university courses.
             </p>
-
+            <br/>
             {/* Experience Guelph Goals */}
             <p style={{ textIndent: "40px" }}>
               <strong>Experience Guelph Goals:</strong>
             </p>
-
+            <br/>
             {/* Goal 1 */}
             <ul style={{ marginLeft: "60px" }}>
               <li>
@@ -289,7 +385,7 @@ export default function CoopsPage() {
                 </ul>
               </li>
             </ul>
-
+            <br/>
             {/* Goal 2 */}
             <ul style={{ marginLeft: "60px" }}>
               <li>
@@ -312,7 +408,7 @@ export default function CoopsPage() {
                 </ul>
               </li>
             </ul>
-
+            <br/>
             {/* Goal 3 */}
             <ul style={{ marginLeft: "60px" }}>
               <li>
@@ -333,7 +429,7 @@ export default function CoopsPage() {
                 </ul>
               </li>
             </ul>
-
+            <br/>
             {/* Project Overview */}
             <p style={{ textIndent: "40px" }}>
               <strong>Project Overview:</strong> My primary task during this co-op was to develop
